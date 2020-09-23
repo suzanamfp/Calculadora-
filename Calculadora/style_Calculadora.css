@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+form{
+    width: 178px;
+    margin-left: 80px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(189, 211, 189);
+    
+
+}
+
+
+.CalcularOperações{
+    font-family: inherit;
+    font-size: 25px;
+    border: black;
+    margin-left: 40px;
+}
+
+p{
+    width: 199px;
+    background-color: rgb(235, 187, 247);
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 80px;
+
+}
+label {
+    font-family: inherit;
+    font-size: 15px;
+    
+    
+}
+.textOperação{
+    font-size: 10px;
+    width: 30px;
+
+}
+.valor1{
+    margin-top: 10px;
+}
+
+.calcula{
+    margin-top: 1px;
+    
+
+}
+
+.resultado{
+    margin-bottom: 15px;
+    font-family: inherit;
+    font-size: 15px;
+}
+ 
+
+
+

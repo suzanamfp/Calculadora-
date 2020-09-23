@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_Calculadora.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="js/aula.js" ></script>
+    <title>Manipulando JS</title>
+</head>
+<body>
+    <!-- <form> 
+        <input type="text" name="valor1" id="valor1"/>
+        <input type="text" name="valor2" id="valor2"/>
+        <button onclick="verifica()">Verificar</button>
+
+    </form>
+
+    <script>
+
+        function verifica(){
+            var valor1= document.getElementById("valor1").value;
+            var valor2= document.getElementById("valor2").value;
+            if (valor1 % valor2 == 0){
+                console.log(valor1);
+                console.log(valor2);
+                console.log("A é divisível por B");
+        }  else {
+            console.log("A não pode ser divisível por B");
+        } 
+    }
+        
+    </script> -->
+    <p>CALCULADORA  </p>
+
+    <form name="CalcularOperações" action="">
+         
+
+        <label for="valor1" class="valor1" >Valor1</label>
+        <input type="text" name="valor1" id="valor1"/>
+
+    
+        <br /> 
+
+        <label for="valor2" class="valor2">Valor2</label>
+        <input type="text" name="valor2" id="valor2"/>
+        
+      
+
+        <label for="operacao" class="textOperação">Selecione a operação desejada</label>
+        <br /> 
+        <select name="operacao" id="operacao">
+            <option value="somar">Somar</option>
+            <option value="subtrair" >Subtrair</option>
+            <option value="dividir">Dividir</option>
+            <option value="multiplicar">Multiplicar</option>
+
+        </select>
+        
+        <label for="calcula" class="calcula"></label>     
+        <input type="button" value="calcula" class="calcula" onclick="calcular('valor1', 'valor2', 'resultado', 'operacao')"  />
+
+        <label for="resultado" class="resultado">Resultado</label>
+        <input text="text" name="resultado" id="resultado"> 
+    </form>
+ 
+</body>
+</html>
